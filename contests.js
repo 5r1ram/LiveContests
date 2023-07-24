@@ -24,15 +24,15 @@ response.then((v) => {
     cardContainer.innerHTML = ihtml
 })
 
-let n = localStorage.getItem("ram")
-alert("Your note is " + n)
+// let n = localStorage.getItem("ram")
+// alert("Your note is " + n)
 
-let a = prompt("enter your note:")
-if(a) {
-    localStorage.setItem("ram", a)
-}
+// let a = prompt("enter your note:")
+// if(a) {
+//     localStorage.setItem("ram", a)
+// }
 
-let c = confirm("Do you want to del your note")
-if(c){
-    localStorage.removeItem("note")
-}
+// let c = confirm("Do you want to del your note")
+// if(c){
+//     localStorage.removeItem("note")
+// }
